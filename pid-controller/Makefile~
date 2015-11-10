@@ -3,7 +3,7 @@ TARGET = /export/nfs/usr/pid_exe
 # compiler flags 
 CFLAGS = -g -Wall 
 # linker flags 
-LDFLAGS = -g -lpthread -lrt
+LDFLAGS = -g -pthread -lrt
 # list of sources 
 SOURCES = $(shell find -name "*.c") 
 # default rule, to compile everything 

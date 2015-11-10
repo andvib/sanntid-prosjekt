@@ -2,14 +2,11 @@
 #define MESSAGES_H
 
 
-
-
-//int initMessages();
-//int sendMessage(char * msg);
-double getMeasurement();
-
-
-
+int initMessages();
+int sendMessage(char * msg);
+void* messageListen();
+//void* messageRespond();
+//double getMeasurement();
 
 
 
